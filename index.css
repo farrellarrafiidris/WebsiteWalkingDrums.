@@ -68,3 +68,10 @@
   color: rgb(255, 255, 255);
   padding-bottom: 25px;
 }
+
+@media screen and (max-width: 425) {
+  #loc {
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+  }
+}
